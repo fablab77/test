@@ -2341,7 +2341,7 @@ html, body {
 
 /* line 10, ../../assets/sass/_sticky-footer.sass */
 .footer {
-  height: 81px;
+  height: 100px;
 }
 
 /* line 12, ../../assets/sass/_sticky-footer.sass */
@@ -2349,12 +2349,12 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -81px;
+  margin: 0 auto -100px;
 }
 
 /* line 17, ../../assets/sass/_sticky-footer.sass */
 .footer-padding {
-  height: 81px;
+  height: 100px;
 }
 
 /* line 11, ../../assets/sass/screen.sass */
