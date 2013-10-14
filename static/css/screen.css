@@ -2398,8 +2398,13 @@ h1 {
   background-image: -webkit-linear-gradient(bottom, #e70f49 0%, #c40031 66%);
   background-image: -ms-linear-gradient(bottom, #e70f49 0%, #c40031 66%);
 }
+/* line 39, ../../assets/sass/screen.sass */
+.navbar .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
 
-/* line 40, ../../assets/sass/screen.sass */
+/* line 47, ../../assets/sass/screen.sass */
 .btn-default {
   background-image: linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
   background-image: -o-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
@@ -2409,32 +2414,32 @@ h1 {
   color: #cfcfcf;
   border: none;
 }
-/* line 48, ../../assets/sass/screen.sass */
+/* line 55, ../../assets/sass/screen.sass */
 .btn-default:hover {
   color: white;
 }
-/* line 50, ../../assets/sass/screen.sass */
+/* line 57, ../../assets/sass/screen.sass */
 .btn-default:active {
   background-color: #001ca8;
 }
 
-/* line 55, ../../assets/sass/screen.sass */
+/* line 62, ../../assets/sass/screen.sass */
 .feedback {
   margin-top: 30px;
 }
 
-/* line 58, ../../assets/sass/screen.sass */
+/* line 65, ../../assets/sass/screen.sass */
 .star {
   color: red;
 }
 
-/* line 61, ../../assets/sass/screen.sass */
+/* line 68, ../../assets/sass/screen.sass */
 .text16b {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 65, ../../assets/sass/screen.sass */
+/* line 72, ../../assets/sass/screen.sass */
 .text-important {
   color: #c40031;
 }
