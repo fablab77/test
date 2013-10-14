@@ -2424,27 +2424,104 @@ h1 {
   color: white;
 }
 /* line 58, ../../assets/sass/screen.sass */
+.btn-default:focus {
+  color: white;
+}
+/* line 60, ../../assets/sass/screen.sass */
 .btn-default:active {
   background-color: #001ca8;
 }
 
-/* line 63, ../../assets/sass/screen.sass */
+/* line 65, ../../assets/sass/screen.sass */
 .feedback {
   margin-top: 30px;
 }
 
-/* line 66, ../../assets/sass/screen.sass */
+/* line 68, ../../assets/sass/screen.sass */
 .star {
   color: red;
 }
 
-/* line 69, ../../assets/sass/screen.sass */
+/* line 71, ../../assets/sass/screen.sass */
 .text16b {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 73, ../../assets/sass/screen.sass */
+/* line 75, ../../assets/sass/screen.sass */
 .text-important {
   color: #c40031;
+}
+
+/* line 80, ../../assets/sass/screen.sass */
+.nice {
+  font-family: arial;
+  font-size: 12px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 90, ../../assets/sass/screen.sass */
+.nice .NFI-button {
+  background-image: linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
+  background-image: -o-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
+  background-image: -moz-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
+  background-image: -webkit-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
+  background-image: -ms-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
+  color: #cfcfcf;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100px;
+  height: 33px;
+  line-height: 30px;
+}
+/* line 99, ../../assets/sass/screen.sass */
+.nice .NFI-button:hover {
+  color: white;
+}
+/* line 101, ../../assets/sass/screen.sass */
+.nice .NFI-button:active {
+  background-color: #001ca8;
+}
+
+/* line 113, ../../assets/sass/screen.sass */
+.nice .NFI-filename {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  vertical-align: middle;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/* line 149, ../../assets/sass/screen.sass */
+.NFI-wrapper {
+  width: 100%;
+  overflow: hidden !important;
+}
+
+/* line 154, ../../assets/sass/screen.sass */
+.fr-left {
+  float: left;
+  font-size: 18px;
+  padding-right: 20px;
+  padding-left: 10px;
+  width: 45%;
+}
+
+/* line 161, ../../assets/sass/screen.sass */
+.fr-right {
+  float: right;
+  font-size: 18px;
+  padding-right: 10px;
+  padding-left: 20px;
+  width: 45%;
 }

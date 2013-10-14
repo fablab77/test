@@ -8,9 +8,9 @@ $(document).ready(function(){
 
 
 
-	
+
 	$("input[type=file]").nicefileinput();
-});
+
 
 
 
