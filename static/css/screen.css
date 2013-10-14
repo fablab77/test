@@ -2341,7 +2341,7 @@ html, body {
 
 /* line 10, ../../assets/sass/_sticky-footer.sass */
 .footer {
-  height: 100px;
+  height: 150px;
 }
 
 /* line 12, ../../assets/sass/_sticky-footer.sass */
@@ -2349,31 +2349,36 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -100px;
+  margin: 0 auto -150px;
 }
 
 /* line 17, ../../assets/sass/_sticky-footer.sass */
 .footer-padding {
-  height: 100px;
+  height: 150px;
 }
 
-/* line 11, ../../assets/sass/screen.sass */
+/* line 8, ../../assets/sass/screen.sass */
+textarea {
+  resize: none;
+}
+
+/* line 12, ../../assets/sass/screen.sass */
 h1 {
   margin-bottom: 25px;
 }
 
-/* line 15, ../../assets/sass/screen.sass */
+/* line 16, ../../assets/sass/screen.sass */
 .top-panel {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 18, ../../assets/sass/screen.sass */
+/* line 19, ../../assets/sass/screen.sass */
 .top-panel address {
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 21, ../../assets/sass/screen.sass */
+/* line 22, ../../assets/sass/screen.sass */
 .navbar {
   background-image: linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
   background-image: -o-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
@@ -2382,15 +2387,15 @@ h1 {
   background-image: -ms-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
   border: none;
 }
-/* line 28, ../../assets/sass/screen.sass */
+/* line 29, ../../assets/sass/screen.sass */
 .navbar .dropdown-menu {
   background-color: #001ca8;
 }
-/* line 31, ../../assets/sass/screen.sass */
+/* line 32, ../../assets/sass/screen.sass */
 .navbar ul > li > a {
   color: white;
 }
-/* line 33, ../../assets/sass/screen.sass */
+/* line 34, ../../assets/sass/screen.sass */
 .navbar ul > li > a:hover, .navbar ul > li > a:active, .navbar ul > li > a:focus {
   background-image: linear-gradient(bottom, #e70f49 0%, #c40031 66%);
   background-image: -o-linear-gradient(bottom, #e70f49 0%, #c40031 66%);
@@ -2398,13 +2403,13 @@ h1 {
   background-image: -webkit-linear-gradient(bottom, #e70f49 0%, #c40031 66%);
   background-image: -ms-linear-gradient(bottom, #e70f49 0%, #c40031 66%);
 }
-/* line 39, ../../assets/sass/screen.sass */
+/* line 40, ../../assets/sass/screen.sass */
 .navbar .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
 
-/* line 47, ../../assets/sass/screen.sass */
+/* line 48, ../../assets/sass/screen.sass */
 .btn-default {
   background-image: linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
   background-image: -o-linear-gradient(bottom, #5971ea 0%, #001ca8 66%);
@@ -2414,32 +2419,32 @@ h1 {
   color: #cfcfcf;
   border: none;
 }
-/* line 55, ../../assets/sass/screen.sass */
+/* line 56, ../../assets/sass/screen.sass */
 .btn-default:hover {
   color: white;
 }
-/* line 57, ../../assets/sass/screen.sass */
+/* line 58, ../../assets/sass/screen.sass */
 .btn-default:active {
   background-color: #001ca8;
 }
 
-/* line 62, ../../assets/sass/screen.sass */
+/* line 63, ../../assets/sass/screen.sass */
 .feedback {
   margin-top: 30px;
 }
 
-/* line 65, ../../assets/sass/screen.sass */
+/* line 66, ../../assets/sass/screen.sass */
 .star {
   color: red;
 }
 
-/* line 68, ../../assets/sass/screen.sass */
+/* line 69, ../../assets/sass/screen.sass */
 .text16b {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 72, ../../assets/sass/screen.sass */
+/* line 73, ../../assets/sass/screen.sass */
 .text-important {
   color: #c40031;
 }
