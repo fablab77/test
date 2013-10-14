@@ -2509,19 +2509,34 @@ h1 {
 }
 
 /* line 154, ../../assets/sass/screen.sass */
-.fr-left {
-  float: left;
-  font-size: 18px;
-  padding-right: 20px;
-  padding-left: 10px;
-  width: 45%;
+h1 {
+  color: #001ca8 !important;
+}
+
+/* line 158, ../../assets/sass/screen.sass */
+.bh h1, .bh h3 {
+  margin-bottom: 0;
 }
 
 /* line 161, ../../assets/sass/screen.sass */
-.fr-right {
-  float: right;
+blockquote {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+/* line 165, ../../assets/sass/screen.sass */
+.fotorama {
   font-size: 18px;
-  padding-right: 10px;
-  padding-left: 20px;
-  width: 45%;
+}
+/* line 167, ../../assets/sass/screen.sass */
+.fotorama .btn-lg {
+  margin-top: 15px;
+}
+/* line 169, ../../assets/sass/screen.sass */
+.fotorama .slide-1-left {
+  margin-top: 0px;
+}
+/* line 171, ../../assets/sass/screen.sass */
+.fotorama .slide-1-right {
+  margin-top: 21px;
 }
