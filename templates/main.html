@@ -1,128 +1,15 @@
 {% extends "base.html" %}
-
 {% block title %}main{% endblock %}
-
 {% block content %}
-
-
-
 <article class="article">
 	<div class="container">
-
-
 	<br>
-
-	<div class="fotorama" data-width="100%" data-height="350">
-
-		<div class="fotorama__select">
-			<div class="col-md-5 pull-left slide-1-left">
-				<div class="jumbotron">
-					<h1>Hello, world!</h1>
-					<p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-				</div>	
-			</div>
-			<div class="col-md-6 pull-right slide-1-right">
-				<p><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				<a class="btn btn-default btn-lg">Learn more</a>
-			</div>
-		</div>
-
-
-		<div class="fotorama__select">
-			<div class="col-md-3 pull-left ">
-				<img class="thumbnail" src="http://placekitten.com/g/600/700" width="100%" alt="">
-			</div>
-			<div class="col-md-8 pull-right">
-				<h1>1914 translation by H. Rackham</h1>
-				
-				<p><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				<div class="btn-group">
-					<button type="button" class="btn btn-default btn-lg">Learn More</button>
-					<button type="button" class="btn btn-default btn-lg"><i class="icon-rocket"></i></button>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="fotorama__select">
-			<div class="col-md-8 pull-left ">
-				<p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit</b> </p>
-				<br>
-				<table class="table table-hover">
-			        <thead>
-			          <tr>
-			            <th>#</th>
-			            <th>First Name</th>
-			            <th>Last Name</th>
-			            <th>Username</th>
-			          </tr>
-			        </thead>
-			        <tbody>
-			          <tr>
-			            <td>1</td>
-			            <td>Mark</td>
-			            <td>Otto</td>
-			            <td>@mdo</td>
-			          </tr>
-			           <tr>
-			            <td>1</td>
-			            <td>Mark</td>
-			            <td>Otto</td>
-			            <td>@mdo</td>
-			          </tr>
-			           <tr>
-			            <td>1</td>
-			            <td>Mark</td>
-			            <td>Otto</td>
-			            <td>@mdo</td>
-			          </tr>
-			          <tr>
-			            <td>2</td>
-			            <td>Jacob</td>
-			            <td>Thornton</td>
-			            <td>@fat</td>
-			          </tr>
-			          <tr>
-			            <td>3</td>
-			            <td colspan="2">Larry the Bird</td>
-			            <td>@twitter</td>
-			          </tr>
-			        </tbody>
-			    </table>
-
-			</div>
-			<div class="col-md-3 pull-right">
-				<br>
-				<br>
-				<br>
-
-				<p>
-					<span class="badge">1</span>
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
-				</p><br>
-				<p>
-					<span class="badge">2</span>
-					Duis aute irure dolor in reprehenderit in voluptate .
-				</p><br>
-				<p>
-					<span class="badge">3</span>
-					Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-				</p>
-				
-			</div>
-		</div>
+	<div class="fotorama" data-width="100%" data-height="350" data-transition="crossfade">
+		<div><a href="#212"><img data-thumb="1_thumb.jpg" src="http://placekitten.com/g/1000/350" width="100%"></a></div>
+		<div><a href="#333"><img src="http://placekitten.com/1000/350" width="100%"></a></div>
+		<div><a href="#222"><img src="http://placekitten.com/1000/351" width="100%"></a></div>
 	</div>
-
 	<hr>
-
-
-
-
-
 		<div class="row">
 			<div class="col-md-12">
 				<div class="bh">
@@ -308,10 +195,6 @@
 
 
 
-	</div><!-- /container -->
-	
-
+	</div>
 </article>
-
-
 {% endblock %}
