@@ -2114,10 +2114,10 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 }
 /* line 702, ../../assets/sass/bootstrap/_mixins.scss */
 .form-control:focus {
-  border-color: #1abc9c;
+  border-color: #2c3e50;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(26, 188, 156, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(26, 188, 156, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
 }
 /* line 141, ../../assets/sass/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
@@ -4927,8 +4927,8 @@ input[type="button"].btn-block {
 
 /* line 493, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse {
-  background-color: #18bc9c;
-  border-color: #128f76;
+  background-color: #2c3e50;
+  border-color: #1a242f;
 }
 /* line 497, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
@@ -4936,7 +4936,7 @@ input[type="button"].btn-block {
 }
 /* line 500, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: #2c3e50;
+  color: white;
   background-color: transparent;
 }
 /* line 506, ../../assets/sass/bootstrap/_navbar.scss */
@@ -4949,13 +4949,13 @@ input[type="button"].btn-block {
 }
 /* line 515, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #2c3e50;
+  color: white;
   background-color: transparent;
 }
 /* line 523, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #15a589;
+  background-color: #233140;
 }
 /* line 531, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -4964,11 +4964,11 @@ input[type="button"].btn-block {
 }
 /* line 539, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
-  border-color: #128f76;
+  border-color: #1a242f;
 }
 /* line 542, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #128f76;
+  background-color: #1a242f;
 }
 /* line 545, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -4977,17 +4977,17 @@ input[type="button"].btn-block {
 /* line 551, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #149c82;
+  border-color: #1f2c39;
 }
 /* line 560, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #15a589;
+  background-color: #233140;
   color: white;
 }
 /* line 565, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-  border-top-color: #2c3e50;
-  border-bottom-color: #2c3e50;
+  border-top-color: white;
+  border-bottom-color: white;
 }
 /* line 569, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
@@ -5002,7 +5002,7 @@ input[type="button"].btn-block {
 @media (max-width: 767px) {
   /* line 587, ../../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #128f76;
+    border-color: #1a242f;
   }
   /* line 590, ../../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
@@ -5010,13 +5010,13 @@ input[type="button"].btn-block {
   }
   /* line 593, ../../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #2c3e50;
+    color: white;
     background-color: transparent;
   }
   /* line 601, ../../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: white;
-    background-color: #15a589;
+    background-color: #233140;
   }
   /* line 609, ../../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5030,7 +5030,7 @@ input[type="button"].btn-block {
 }
 /* line 620, ../../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
-  color: #2c3e50;
+  color: white;
 }
 
 /* line 6, ../../assets/sass/bootstrap/_breadcrumbs.scss */
@@ -7463,51 +7463,51 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 11, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 53, ../../assets/sass/flatly/_bootswatch.scss */
 .btn:active {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 15, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 57, ../../assets/sass/flatly/_bootswatch.scss */
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 21, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 63, ../../assets/sass/flatly/_bootswatch.scss */
 .text-primary {
   color: #2c3e50;
 }
 
-/* line 25, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 67, ../../assets/sass/flatly/_bootswatch.scss */
 .text-success {
   color: #18bc9c;
 }
 
-/* line 29, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 71, ../../assets/sass/flatly/_bootswatch.scss */
 .text-danger {
   color: #e74c3c;
 }
 
-/* line 33, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 75, ../../assets/sass/flatly/_bootswatch.scss */
 .text-warning {
   color: #f39c12;
 }
 
-/* line 37, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 79, ../../assets/sass/flatly/_bootswatch.scss */
 .text-info {
   color: #3498db;
 }
 
-/* line 47, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 89, ../../assets/sass/flatly/_bootswatch.scss */
 .table tr.success,
 .table tr.warning,
 .table tr.danger {
   color: #fff;
 }
 
-/* line 69, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 111, ../../assets/sass/flatly/_bootswatch.scss */
 .form-control, textarea.form-control,
 input[type="text"],
 input[type="password"],
@@ -7528,7 +7528,7 @@ input[type="color"],
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 73, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 115, ../../assets/sass/flatly/_bootswatch.scss */
 .form-control:focus, textarea.form-control:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -7549,80 +7549,80 @@ input[type="color"]:focus,
   box-shadow: none;
 }
 
-/* line 80, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 122, ../../assets/sass/flatly/_bootswatch.scss */
 .has-warning .help-block,
 .has-warning .control-label {
   color: #f39c12;
 }
-/* line 85, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 127, ../../assets/sass/flatly/_bootswatch.scss */
 .has-warning .form-control,
 .has-warning .form-control:focus {
   border: 2px solid #f39c12;
 }
 
-/* line 92, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 134, ../../assets/sass/flatly/_bootswatch.scss */
 .has-error .help-block,
 .has-error .control-label {
   color: #e74c3c;
 }
-/* line 97, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 139, ../../assets/sass/flatly/_bootswatch.scss */
 .has-error .form-control,
 .has-error .form-control:focus {
   border: 2px solid #e74c3c;
 }
 
-/* line 104, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 146, ../../assets/sass/flatly/_bootswatch.scss */
 .has-success .help-block,
 .has-success .control-label {
   color: #18bc9c;
 }
-/* line 109, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 151, ../../assets/sass/flatly/_bootswatch.scss */
 .has-success .form-control,
 .has-success .form-control:focus {
   border: 2px solid #18bc9c;
 }
 
-/* line 118, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 160, ../../assets/sass/flatly/_bootswatch.scss */
 .pagination a {
   color: #fff;
 }
-/* line 121, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 163, ../../assets/sass/flatly/_bootswatch.scss */
 .pagination a:hover {
   color: #2c3e50;
 }
-/* line 130, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 172, ../../assets/sass/flatly/_bootswatch.scss */
 .pagination .disabled > a, .pagination .disabled > a:hover, .pagination .disabled > a:focus, .pagination .disabled > span {
   background-color: #3be6c4;
 }
 
-/* line 137, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 179, ../../assets/sass/flatly/_bootswatch.scss */
 .pager a {
   color: #fff;
 }
-/* line 139, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 181, ../../assets/sass/flatly/_bootswatch.scss */
 .pager a:hover {
   color: #2c3e50;
 }
-/* line 148, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 190, ../../assets/sass/flatly/_bootswatch.scss */
 .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   background-color: #3be6c4;
 }
 
-/* line 159, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 201, ../../assets/sass/flatly/_bootswatch.scss */
 .alert a,
 .alert .alert-link {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 167, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 209, ../../assets/sass/flatly/_bootswatch.scss */
 .progress {
   height: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 174, ../../assets/sass/flatly/_bootswatch.scss */
+/* line 216, ../../assets/sass/flatly/_bootswatch.scss */
 .well {
   -webkit-box-shadow: none;
   box-shadow: none;

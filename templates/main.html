@@ -3,13 +3,13 @@
 {% block content %}
 <article class="article">
 	<div class="container">
-	<br>
-	<div class="fotorama" data-width="100%" data-height="350" data-transition="crossfade">
-		<div><a href="#212"><img data-thumb="1_thumb.jpg" src="http://placekitten.com/g/1000/350" width="100%"></a></div>
-		<div><a href="#333"><img src="http://placekitten.com/1000/350" width="100%"></a></div>
-		<div><a href="#222"><img src="http://placekitten.com/1000/351" width="100%"></a></div>
-	</div>
-	<hr>
+		<br>
+		<div class="fotorama" data-width="100%" data-height="350" data-transition="crossfade">
+			<div><a href="#1"><img data-thumb="1_thumb.jpg" src="http://placekitten.com/g/1000/350"></a></div>
+			<div><a href="#2"><img src="http://placekitten.com/1000/350"></a></div>
+			<div><a href="#3"><img src="http://placekitten.com/1000/351"></a></div>
+		</div>
+		<hr>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="bh">
@@ -19,7 +19,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-md-8">
 				<p>
@@ -43,23 +42,16 @@
 				</p>
 				<br>
 				<iframe width="100%" height="320" src="//www.youtube.com/embed/5d7HCxoVOoQ" frameborder="0" allowfullscreen></iframe>
-				
-
-
-
 				<br>
 				<br>
-
 				<div class="bh">
 					<h1>Sit amet, consectetur</h1>
 					<hr>
 				</div>
-				
 				<p>
 					But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
 				</p>
 				<br>
-
 				<div class="row">
 					<div class="col-md-4">
 						<b>Sed ut perspiciatis</b> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
@@ -71,10 +63,6 @@
 						<b>Suscipit laboriosam</b>, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 					</div>
 				</div>
-
-
-					  
-				
 			</div>
 			<div class="col-md-4">
 				<div class="thumbnail">
@@ -85,44 +73,35 @@
 					<h3>Lorem Ipsum</h3>
 					<hr>
 				</div>
-				
-				
-
 				<div class="row">
 					<div class="col-md-6">
-						<img class="thumbnail" src="http://placekitten.com/g/600/400" width="100%" alt="">
+						<img class="thumbnail" src="http://placekitten.com/g/600/400">
 					</div>
 					<div class="col-md-6">
-						<img class="thumbnail" src="http://placekitten.com/g/600/400" width="100%" alt="">
+						<img class="thumbnail" src="http://placekitten.com/g/600/400">
 						<br>
 					</div>
 
 					<div class="col-md-6">
-						<img class="thumbnail" src="http://placekitten.com/g/600/400" width="100%" alt="">
+						<img class="thumbnail" src="http://placekitten.com/g/600/400">
 					</div>
 					<div class="col-md-6">
-						<img class="thumbnail" src="http://placekitten.com/g/600/400" width="100%" alt="">
+						<img class="thumbnail" src="http://placekitten.com/g/600/400">
 					</div>
 				</div>
 				<br>
-
-				<img class="thumbnail" src="http://placekitten.com/g/600/700" width="100%" alt="">
-				
-				
+				<img class="thumbnail" src="http://placekitten.com/g/600/700">
 			</div>
 		</div>
 		<br>
 		<br>
 		<br>
-
 		<div class="row feedback">
-			<div class="">
+			<div>
 				<h3>Форма обратной связи</h3>
 				<hr>
 			</div>
-	<!-- 		<div class="col-md-2"></div> -->
 			<div class="col-md-8">
-
 				<form class="form-horizontal">
 					<div class="form-group">
 						<label for="inputEmail1" class="col-lg-4 control-label">Предприятие:</label>
@@ -131,70 +110,85 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star">* </span>ФИО, Должность:</label>
+						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star"><span class="text-danger">*</span> </span>ФИО:</label>
 						<div class="col-lg-8">
 							<input type="text" class="form-control" id="inputEmail1" placeholder="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star">* </span>Email:</label>
+						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star"><span class="text-danger">*</span> </span>Должность:</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="inputEmail1" placeholder="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star"><span class="text-danger">*</span> </span>Email:</label>
 						<div class="col-lg-8">
 							<input type="email" class="form-control" id="inputEmail1" placeholder="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star">* </span>Телефон:</label>
+						<label for="inputEmail1" class="col-lg-4 control-label"><span class="star"><span class="text-danger">*</span> </span>Телефон:</label>
 						<div class="col-lg-8">
 							<input type="text" class="form-control" id="inputEmail1" placeholder="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputEmail1" class="col-lg-4 control-label">Прикрепить фаил:</label>
+						<label for="inputEmail1" class="col-lg-4 control-label">Прикрепить файл:</label>
 						<div class="col-lg-8">
-							<input type="file" class="nice NFI-button " id="">
+							<!-- The fileinput-button span is used to style the file input field as button -->
+							<span class="btn btn-success fileinput-button">
+								<i class="glyphicon icon-plus"></i>
+								<span>Прикрепить</span>
+								<!-- The file input field used as target for the file upload widget -->
+								<input id="fileupload" type="file" name="files[]" multiple>
+							</span>
+							<br>
+							<br>
+							<!-- The global progress bar -->
+							<div id="progress" class="progress">
+								<div class="progress-bar progress-bar-success"></div>
+							</div>
+							<!-- The container for the uploaded files -->
+							<div id="files" class="files"></div>
+							<br>
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="" class="col-lg-4 control-label">Текст сообщения:</label>
 						<div class="col-lg-8">
-
 							<textarea class="form-control" rows="3"></textarea>
 						</div>
 					</div>
-					
 					<div class="form-group">
 						<div class="col-lg-offset-4 col-lg-8">
-							<button type="submit" class="btn btn-default">Отправить</button>
+							<button type="submit" class="btn btn-primary">Отправить</button>
 						</div>
 					</div>
 				</form>
-				
 			</div>
 			<div class="col-md-4">
 				<p>
-					Заполните форму обратной связи, и мы свяжимся с Вами в течении x часов.
-					Поля отмеченные звездочкой- обязательны для заполнения.
+					Заполните, пожалуйста, форму обратной связи, и&nbsp;мы&nbsp;свяжемся с&nbsp;вами в&nbsp;течении 6&nbsp;часов.<br>
+					Поля, отмеченные звездочкой, обязательны для заполнения.
 				</p>
 				<hr>
-				Пустое обязательное поле:				
+				<p>
+					Пустое обязательное поле:				
+				</p>
 				<div class="form-group has-error">
 					<input type="text" class="form-control" id="inputError">
 					<p class="help-block">Заполните это поле</p>
 				</div>
 				<br>
-				Сообщение об успешной отправке данных:
+				<p>
+					Сообщение об успешной отправке данных:
+				</p>
 				<div class="alert alert-success">
-					<strong>Данные успешно отправленны.</strong> Наш оператор свяжется с Вами в течении 24 часов
+					<strong>Данные успешно отправленны.</strong> Наш&nbsp;оператор свяжется с&nbsp;Вами в&nbsp;течении 24&nbsp;часов.
 				</div>
-
 			</div>
 		</div>
-
-
-			
-
-
-
 	</div>
 </article>
 {% endblock %}

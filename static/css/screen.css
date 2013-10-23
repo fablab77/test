@@ -2349,7 +2349,23 @@ html, body {
   height: 150px;
 }
 
-/* line 7, ../../assets/sass/screen.sass */
+/* line 5, ../../assets/sass/screen.sass */
 textarea {
   resize: none;
+}
+
+/* line 8, ../../assets/sass/screen.sass */
+.top-panel {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/* line 11, ../../assets/sass/screen.sass */
+.top-panel address {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/* line 15, ../../assets/sass/screen.sass */
+.fotorama img {
+  width: 100%;
 }
