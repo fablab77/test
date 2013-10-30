@@ -399,12 +399,12 @@ textarea {
 
 /* line 54, ../../assets/sass/bootstrap/_scaffolding.scss */
 a {
-  color: #60b0af;
+  color: #017cc4;
   text-decoration: none;
 }
 /* line 59, ../../assets/sass/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #60b0af;
+  color: #017cc4;
   text-decoration: underline;
 }
 /* line 64, ../../assets/sass/bootstrap/_scaffolding.scss */
@@ -2644,7 +2644,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 
 /* line 85, ../../assets/sass/bootstrap/_buttons.scss */
 .btn-link {
-  color: #60b0af;
+  color: #017cc4;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2661,7 +2661,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 }
 /* line 105, ../../assets/sass/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #60b0af;
+  color: #017cc4;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4334,7 +4334,7 @@ input[type="button"].btn-block {
 /* line 48, ../../assets/sass/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #ecf0f1;
-  border-color: #60b0af;
+  border-color: #017cc4;
 }
 /* line 55, ../../assets/sass/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -4465,14 +4465,14 @@ input[type="button"].btn-block {
 
 /* line 214, ../../assets/sass/bootstrap/_navs.scss */
 .nav .caret {
-  border-top-color: #60b0af;
-  border-bottom-color: #60b0af;
+  border-top-color: #017cc4;
+  border-bottom-color: #017cc4;
 }
 
 /* line 218, ../../assets/sass/bootstrap/_navs.scss */
 .nav a:hover .caret {
-  border-top-color: #60b0af;
-  border-bottom-color: #60b0af;
+  border-top-color: #017cc4;
+  border-bottom-color: #017cc4;
 }
 
 /* line 224, ../../assets/sass/bootstrap/_navs.scss */
@@ -5329,7 +5329,7 @@ a.badge:hover, a.badge:focus {
 /* line 45, ../../assets/sass/bootstrap/_badges.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #60b0af;
+  color: #017cc4;
   background-color: white;
 }
 
@@ -5392,7 +5392,7 @@ a.list-group-item.active > .badge,
 /* line 19, ../../assets/sass/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #60b0af;
+  border-color: #017cc4;
 }
 
 /* line 24, ../../assets/sass/bootstrap/_thumbnails.scss */
