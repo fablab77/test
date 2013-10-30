@@ -79,7 +79,7 @@ $padding-small-horizontal:       9px;
 $line-height-large:              1.33;
 $line-height-small:              1.5;
 
-$border-radius-base:             4px;
+$border-radius-base:             0; // 4px;
 $border-radius-large:            6px;
 $border-radius-small:            3px;
 
@@ -258,7 +258,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 
 // Navbar links
 $navbar-default-link-color:                #fff;
-$navbar-default-link-hover-color:          $brand-success;
+$navbar-default-link-hover-color:          #AED1EE;//#fff;// $brand-success;
 $navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:         #fff;
 $navbar-default-link-active-bg:            #036895;//darken($navbar-default-bg, 30%);
