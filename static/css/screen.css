@@ -2355,17 +2355,26 @@ textarea {
 }
 
 /* line 8, ../../assets/sass/screen.sass */
+.navbar-brand {
+  padding: 8px 30px;
+}
+/* line 10, ../../assets/sass/screen.sass */
+.navbar-brand path {
+  fill: white;
+}
+
+/* line 13, ../../assets/sass/screen.sass */
 .top-panel {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-/* line 11, ../../assets/sass/screen.sass */
+/* line 16, ../../assets/sass/screen.sass */
 .top-panel address {
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 15, ../../assets/sass/screen.sass */
+/* line 20, ../../assets/sass/screen.sass */
 .fotorama img {
   width: 100%;
 }

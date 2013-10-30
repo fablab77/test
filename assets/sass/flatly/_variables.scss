@@ -19,17 +19,17 @@ $gray-lighter:           #ecf0f1;
 // -------------------------
 
 $brand:                 #001ca8;
-$brand-primary:         #2C3E50;
-$brand-success:         #18BC9C;
+$brand-primary:         #017CC4; //#036895; //#043350; //#2C3E50;
+$brand-success:         #60B0AF; //#00D7E9; //#18BC9C;
 $brand-warning:         #F39C12;
-$brand-danger:          #E74C3C;
+$brand-danger:          #F04A54; //#E74C3C;
 $brand-info:            #3498DB;
 
 // Scaffolding
 // -------------------------
 
 $body-bg:               #fff;
-$text-color:            $brand-primary;
+$text-color:            #043350;
 
 // Links
 // -------------------------
@@ -143,7 +143,7 @@ $input-bg-disabled:              $gray-lighter;
 $input-color:                    $text-color;
 $input-border:                   #dce4ec;
 $input-border-radius:            $border-radius-base;
-$input-border-focus:             $brand-primary; //#1abc9c;
+$input-border-focus:             #00D7E9; //$brand-primary; //#1abc9c;
 
 $input-color-placeholder:        #acb6c0;
 
@@ -250,7 +250,7 @@ $grid-float-breakpoint:     $screen-tablet;
 $navbar-height:                    60px;
 $navbar-margin-bottom:             $line-height-computed;
 $navbar-default-color:             #777;
-$navbar-default-bg:                $brand-primary;
+$navbar-default-bg:                #017CC4;//darken(#011ca9, 20%); //$brand-primary;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%);
 $navbar-border-radius:             $border-radius-base;
 $navbar-padding-horizontal:        floor($grid-gutter-width / 2);  // ~15px
@@ -261,7 +261,7 @@ $navbar-default-link-color:                #fff;
 $navbar-default-link-hover-color:          $brand-success;
 $navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:         #fff;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 10%);
+$navbar-default-link-active-bg:            #036895;//darken($navbar-default-bg, 30%);
 $navbar-default-link-disabled-color:       #ccc;
 $navbar-default-link-disabled-bg:          transparent;
 
