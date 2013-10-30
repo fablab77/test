@@ -2378,3 +2378,8 @@ textarea {
 .fotorama img {
   width: 100%;
 }
+
+/* line 23, ../../assets/sass/screen.sass */
+.upload .progress {
+  margin-top: 8px;
+}
