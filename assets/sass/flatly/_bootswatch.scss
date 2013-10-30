@@ -58,6 +58,10 @@
 	@include box-shadow(none);
 }
 
+.btn-xs {
+	@include border-radius(0px);
+}
+
 // Typography =================================================================
 
 .text-primary {
