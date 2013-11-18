@@ -2401,3 +2401,15 @@ textarea {
 .upload .progress {
   margin-top: 8px;
 }
+
+/* line 37, ../../assets/sass/screen.sass */
+.navbar-header-button-icon {
+  display: inline-block;
+}
+
+/* line 39, ../../assets/sass/screen.sass */
+.navbar-header-button-text {
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+}
